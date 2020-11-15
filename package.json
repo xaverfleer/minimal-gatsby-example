@@ -1,0 +1,19 @@
+{
+  "name": "No class in /index element",
+  "description": "Minimal version to reproduce a bug",
+  "version": "1.0.0",
+  "author": "Xaver Fleer",
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  }
+}
