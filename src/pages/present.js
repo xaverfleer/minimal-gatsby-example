@@ -6,10 +6,17 @@ export default () => {
   return (
     <header>
       <Link class="present" to="/">
-        no-class
+        gatsby Link to /
       </Link>
       <br />
-      <Link to="/present">yes-class</Link>
+      <Link to="/present">gatsby Link to /present</Link>
+      <br />
+
+      <a class="present" href="/">
+        anchor element to /
+      </a>
+      <br />
+      <a href="/present">anchor element to /present</a>
     </header>
   );
 };
